@@ -23,7 +23,7 @@
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; overflow-x: clip; }
 img { max-width: 100%; display: block; height: auto; }
 
 body {
@@ -33,7 +33,7 @@ body {
   font-size: 17px;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 /* grain papier */
@@ -690,7 +690,7 @@ figure img { border-radius: 4px; }
 
   .galerie-grid { grid-template-columns: 1fr; }
   .g-1, .g-2, .g-3 { grid-column: 1 / -1; margin: 0; }
-  .g-2 { max-width: 78%; margin-left: auto; margin-top: -60px; }
+  .g-2 { max-width: 82%; margin-left: auto; margin-top: 26px; }
   .g-3 { margin-top: 34px; }
 
   .infos-grid { grid-template-columns: 1fr; }
@@ -702,7 +702,7 @@ figure img { border-radius: 4px; }
 
 @media (max-width: 420px) {
   .hero h1 { font-size: clamp(44px, 13vw, 52px); }
-  .g-2 { max-width: 86%; margin-top: -40px; }
+  .g-2 { max-width: 88%; margin-top: 22px; }
   .dates li { gap: 14px; }
   .decouverte-prix { flex-wrap: wrap; }
 }
