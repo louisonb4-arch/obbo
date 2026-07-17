@@ -1,4 +1,102 @@
 /* ============================================================
+   OBBO — polices auto-hébergées
+   Fraunces · Instrument Sans · Caveat — SIL Open Font License 1.1
+   Polices variables, sous-ensembles latin + latin-ext.
+   Aucun appel à fonts.googleapis.com ni fonts.gstatic.com :
+   le navigateur du visiteur ne contacte aucun serveur tiers.
+   ============================================================ */
+
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(assets/font/fraunces-normal-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(assets/font/fraunces-normal-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Fraunces';
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(assets/font/fraunces-italic-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Fraunces';
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(assets/font/fraunces-italic-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Instrument Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(assets/font/instrument-sans-normal-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Instrument Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(assets/font/instrument-sans-normal-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Instrument Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(assets/font/instrument-sans-italic-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Instrument Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(assets/font/instrument-sans-italic-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(assets/font/caveat-normal-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(assets/font/caveat-normal-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* ============================================================
    OBBO — cave à manger · Nantes
    DA « la carte vivante » : papier, encre, tache de vin,
    annotations manuscrites, points de conduite.
@@ -717,4 +815,121 @@ figure img { border-radius: 4px; }
   .marquee-track { animation: none; }
   .stamp svg { animation: none; }
   .btn:hover { transform: none; }
+}
+
+/* ============================================================
+   PAGES LÉGALES — « le dos de la carte »
+   Mentions légales + Confidentialité. Même papier, même encre.
+   ============================================================ */
+
+.legal-head {
+  padding: clamp(120px, 16vh, 190px) var(--pad) clamp(40px, 6vh, 70px);
+  max-width: 860px; margin: 0 auto;
+  position: relative;
+}
+.legal-head h1 {
+  font-size: clamp(42px, 6.4vw, 92px);
+  letter-spacing: -.015em;
+  margin-bottom: 22px;
+}
+.legal-head .legal-lede {
+  max-width: 56ch; color: var(--ink-soft);
+  font-size: clamp(17px, 1.5vw, 20px);
+}
+.legal-maj {
+  margin-top: 26px; font-size: 13px; color: var(--ink-soft);
+  border-top: 1px solid var(--line); padding-top: 14px; max-width: 56ch;
+}
+
+.legal {
+  padding: 0 var(--pad) clamp(40px, 6vh, 70px);
+  max-width: 860px; margin: 0 auto;
+}
+.legal > p, .legal > ul, .legal > ol { max-width: 68ch; }
+.legal p + p { margin-top: 1em; }
+.legal h2 {
+  font-size: clamp(24px, 2.6vw, 34px);
+  margin: clamp(46px, 6vh, 72px) 0 18px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+}
+.legal h3 {
+  font-size: clamp(18px, 1.7vw, 21px);
+  font-style: italic; font-weight: 400;
+  margin: 30px 0 10px; color: var(--wine-deep);
+}
+.legal ul, .legal ol { margin: 14px 0; padding-left: 0; list-style: none; }
+.legal li { padding: 5px 0 5px 22px; position: relative; }
+.legal li::before {
+  content: "o"; position: absolute; left: 0; top: 5px;
+  color: var(--wine); font-size: 11px; line-height: 1.9;
+}
+.legal a:not(.btn) {
+  color: var(--wine-deep);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: rgba(162, 35, 51, .4);
+}
+.legal a:not(.btn):hover { text-decoration-color: var(--wine); }
+
+/* Fiche d'identité de l'éditeur — points de conduite de la carte papier */
+.legal-id { margin: 18px 0 8px; }
+.legal-id li {
+  display: flex; align-items: baseline; gap: 8px;
+  padding: 7px 0; border: 0;
+}
+.legal-id li::before { content: none; }
+.legal-id dt, .legal-id .k { color: var(--ink-soft); white-space: nowrap; }
+.legal-id .lead {
+  flex: 1; min-width: 18px; align-self: center;
+  height: 2px;
+  background-image: radial-gradient(circle, var(--line-strong) 1px, transparent 1px);
+  background-size: 5px 2px;
+  background-repeat: repeat-x;
+  background-position: 0 center;
+  transform: translateY(2px);
+}
+.legal-id .v { font-weight: 500; text-align: right; }
+
+/* Trou assumé : ce qui n'a pas pu être vérifié se voit. */
+.manque {
+  background: #FFD9E2;
+  color: #7A0B26;
+  padding: 1px 7px;
+  border-radius: 2px;
+  font-weight: 500;
+  font-size: .94em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+/* Séparateur « o o o » repris de la carte */
+.legal-sep {
+  text-align: center; color: var(--wine);
+  letter-spacing: 1.1em; font-size: 12px;
+  margin: clamp(46px, 6vh, 72px) 0;
+}
+
+.legal-actions {
+  display: flex; gap: 14px; flex-wrap: wrap;
+  margin-top: clamp(46px, 6vh, 70px);
+  padding-top: 30px; border-top: 1px solid var(--ink);
+}
+
+/* Encadré source — le site dit d'où il tient ce qu'il affirme */
+.legal-source {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--wine);
+  padding: 18px 22px; margin: 20px 0;
+  font-size: 14.5px; color: var(--ink-soft);
+  max-width: 68ch;
+}
+.legal-source strong { color: var(--ink); }
+
+@media (max-width: 700px) {
+  .legal-id li { flex-wrap: wrap; gap: 2px; }
+  .legal-id .lead { display: none; }
+  .legal-id .v { text-align: left; width: 100%; }
 }

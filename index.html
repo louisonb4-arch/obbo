@@ -13,9 +13,8 @@
   <meta property="og:url" content="https://obbo-nantes.fr/">
   <meta property="og:locale" content="fr_FR">
   <link rel="icon" type="image/png" href="assets/img/logo.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,340;0,9..144,400;0,9..144,540;0,9..144,620;1,9..144,340;1,9..144,400;1,9..144,540&family=Instrument+Sans:ital,wght@0,400;0,500;1,400&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="preload" href="assets/font/fraunces-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/font/instrument-sans-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="styles.css">
   <script type="application/ld+json">
   {
@@ -357,8 +356,10 @@
       </div>
     </div>
     <div class="foot-legal">
-      <p>© 2026 OBBO · <a href="https://obbo-nantes.fr/conditions-generales-de-ventes" rel="noopener">CGV</a> · <a href="https://obbo-nantes.fr/contact" rel="noopener">Contact</a></p>
-      <p>Photographies — Nina Ducleux</p>
+      <!-- CGV et Contact pointent vers le site actuel : ces adresses tombent le jour où ce
+           site le remplace sur le même domaine. Voir LEGAL-TODO.md § 1.4. -->
+      <p>© 2026 OBBO · SARL · Nantes · <a href="mentions-legales.html">Mentions légales</a> · <a href="confidentialite.html">Confidentialité</a> · <a href="confidentialite.html#cookies">Cookies</a> · <a href="https://obbo-nantes.fr/conditions-generales-de-ventes" rel="noopener">CGV</a> · <a href="https://obbo-nantes.fr/contact" rel="noopener">Contact</a></p>
+      <p>Photographies — Nina Ducleux · Création <a href="https://vokumagency.com" target="_blank" rel="noopener">Vokum</a></p>
     </div>
   </footer>
 
